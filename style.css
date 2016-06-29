@@ -54,7 +54,35 @@
 
 		#sec2 {
 			float: right;
+			width: 320px;
 		}
+
+			aside {
+				background: white;
+				padding: 20px;
+				margin: 10px 0;
+			}	
+
+				.list-heading {
+					font-size: 23px;
+					text-align: center;
+				}
+
+				.list-data {
+
+				}		
+
+					.lists {
+						background: brown;
+						color: white;
+						border: black 1px solid; 
+						margin: 5px 0;
+						padding: 5px;
+					}
+
+					.lists:hover {
+						background: silver;
+					}
 
 			article {
 				background: white;
