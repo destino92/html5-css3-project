@@ -84,6 +84,23 @@
 						background: silver;
 					}
 
+				aside input {
+					width: 280px;
+					height: 30px;
+					box-shadow: inset 0 0 5px gray;
+					border: 1px solid black;
+				}
+
+				aside button {
+					width: 280px;
+					height: 30px;
+					border: 1px solid black;
+					background: brown;
+					color: white;
+					font-size: 18px;
+					margin: 10px 0;
+				}
+
 			article {
 				background: white;
 				padding: 20px;
@@ -108,6 +125,7 @@
 	footer {
 		background: silver;
 		width: 1000px;
-		height: 50px;
 		margin: 20px 0;
+		text-align: center;
+		padding: 20px;
 	}
