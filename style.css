@@ -11,16 +11,34 @@
 	header {
 		background: silver;
 		width: 1000px;
-		height: 100px;
 		margin: 20px 0;
 	}
 
+	header h1 {
+		color: white;
+		font-family: arial;
+		padding: 20px;
+	}
+
 	nav {
-		background: gray;
+		background: #666;
 		width: 1000px;
-		height: 50px;
 		margin: 20px 0;
 	}
+
+		nav ul {
+
+		}
+
+			nav li {
+				float: left;
+				list-style: none;
+				padding: 10px 20px;
+			}
+
+			nav li:hover {
+				background: #CF5C3F;
+			}
 
 	main {
 		background: silver;
