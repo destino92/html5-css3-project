@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 * {
 	padding: 0;
 	margin: 0;
+	font-family: 'Roboto';
 }
 
 #container {
@@ -119,6 +122,7 @@
 				.title {
 					color: brown;
 					margin: 10px 0;
+					font-weight: bold;
 					font-size: 25px; 
 				}
 
