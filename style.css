@@ -12,6 +12,7 @@
 		background: silver;
 		width: 1000px;
 		margin: 20px 0;
+		border-radius: 5px;
 	}
 
 	header h1 {
@@ -24,6 +25,7 @@
 		background: #666;
 		width: 1000px;
 		margin: 20px 0;
+		border-radius: 5px;
 	}
 
 		nav ul {
@@ -34,6 +36,11 @@
 				float: left;
 				list-style: none;
 				padding: 10px 20px;
+			}
+
+			nav li:first-child {
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
 			}
 
 			nav li:hover {
@@ -61,6 +68,7 @@
 				background: white;
 				padding: 20px;
 				margin: 10px 0;
+				border-radius: 5px;
 			}	
 
 				.list-heading {
@@ -105,6 +113,7 @@
 				background: white;
 				padding: 20px;
 				margin: 10px 0;
+				border-radius: 5px;
 			}
 
 				.title {
@@ -120,6 +129,7 @@
 
 				.metadata {
 					margin: 10px 0;
+					color: gray;
 				}
 
 	footer {
@@ -128,4 +138,5 @@
 		margin: 20px 0;
 		text-align: center;
 		padding: 20px;
+		border-radius: 5px;
 	}
