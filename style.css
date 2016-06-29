@@ -4,19 +4,29 @@
 }
 
 #container {
-
+	width: 1000px;
+	margin: 0 auto;
 }
 
 	header {
-
+		background: silver;
+		width: 1000px;
+		height: 100px;
+		margin: 20px 0;
 	}
 
 	nav {
-
+		background: gray;
+		width: 1000px;
+		height: 50px;
+		margin: 20px 0;
 	}
 
 	main {
-
+		background: silver;
+		width: 1000px;
+		height: 500px;
+		margin: 20px 0;
 	}
 
 		#sec1 {
@@ -32,5 +42,8 @@
 			}
 
 	footer {
-
+		background: silver;
+		width: 1000px;
+		height: 50px;
+		margin: 20px 0;
 	}
