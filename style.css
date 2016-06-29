@@ -38,26 +38,44 @@
 
 			nav li:hover {
 				background: #CF5C3F;
+				color: white;
+				cursor: pointer;
 			}
 
 	main {
-		background: silver;
 		width: 1000px;
-		height: 500px;
 		margin: 20px 0;
 	}
 
 		#sec1 {
-
+			float: left;
+			width: 650px;
 		}
 
 		#sec2 {
-
+			float: right;
 		}
 
 			article {
-
+				background: white;
+				padding: 20px;
+				margin: 10px 0;
 			}
+
+				.title {
+					color: brown;
+					margin: 10px 0;
+					font-size: 25px; 
+				}
+
+				.description {
+					font-size: 17px;
+					line-height: 20px;
+				}
+
+				.metadata {
+					margin: 10px 0;
+				}
 
 	footer {
 		background: silver;
